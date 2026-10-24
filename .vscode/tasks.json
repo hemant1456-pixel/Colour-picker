@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Smart Colour Studio (Expo)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"start",
+				"--",
+				"--port",
+				"8081"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
